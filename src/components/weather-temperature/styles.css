@@ -1,0 +1,44 @@
+.weather-widget {
+    color: beige;
+    position: relative;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: url('./../../assets/img/backgrounds/clouds.jpeg') center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.weather-widget:after {
+    border-radius: 20px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+}
+
+* {
+    z-index: 3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description, .icon {
+    text-align: center;
+}
+.temperature {
+    font-size: 50px;
+}
+.minmax-temp {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

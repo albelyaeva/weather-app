@@ -1,0 +1,35 @@
+.weather-header {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    opacity: .6;
+    margin-bottom: 7%;
+    padding: 0 5px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.weather-header input {
+    width: 100%;
+    height: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+input[type="search"] {
+    font-size: 20px;
+    color: beige;
+}
+.img-search {
+    fill: beige;
+}
+
+input[type="search"]:focus {
+    border: 1px solid dimgray;
+    border-radius: 4px;
+}
